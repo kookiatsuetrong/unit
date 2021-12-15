@@ -1,23 +1,25 @@
-![](cover.jpg)
-
 # Unit Test
+
 Unit Test คือการทดสอบ Method ว่าเขียนได้ถูกต้องตามที่ต้องการหรือไม่
 ใน Java นิยมใช้ JUnit ในการทำ Unit Test
 แต่บทความนี้จะใช้ Surefire แทน เพราะ Surefire
 เป็น Framework ที่แถมมากับ Maven ไม่ต้องเพิ่มเติมอะไรให้ยุ่งยาก
 
+
+![](cover.jpg)
+
 เริ่มต้นสร้าง Directory ลักษณะนี้
 ```
 '-- unit
-	'-- pom.xml
-	'-- src
-		'-- main
-		'	'-- java
-		'		'-- Start.java
-		'		'-- School.java
-		'-- test
-			'-- java
-				'-- SchoolTest.java
+    '-- pom.xml
+    '-- src
+        '-- main
+        '   '-- java
+        '       '-- Start.java
+        '       '-- School.java
+        '-- test
+            '-- java
+                '-- SchoolTest.java
 ```
 
 ## แบบฝึกหัด
