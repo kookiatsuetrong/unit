@@ -23,7 +23,7 @@
 ดังนั้น แผนกแรกต้องจ้างเพิ่ม 1 คน, แผนกที่ 2 ไม่ต้องจ้างเพิ่ม, แผนกที่ 3 ต้องจ้างเพิ่ม 2 คน
 รวมจ้างเพิ่ม 3 คน
 
-ข้อมูลเป็น List<List<Integer>> และ int เช่น
+ข้อมูลเป็น List&lt;List&lt;Integer>> และ int เช่น
 ```java
 int hire(List<List<Integer>> departments, int percent) {
 
