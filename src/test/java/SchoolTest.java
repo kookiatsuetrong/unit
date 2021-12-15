@@ -46,4 +46,23 @@ public class SchoolTest {
 		int result = s.hire(all, 99);
 		assert result == 1980000000;
 	}
+	public void test005() {
+		List<Integer> u = new ArrayList<>();
+		u.add(0); u.add(1000000000);
+		List<List<Integer>> all = new ArrayList<>();
+		all.add(u);
+		School s = new School();
+		int result = s.hire(all, 50);
+		assert result == 1000000000;
+	}
+	public void test006() {
+		List<Integer> u = new ArrayList<>();
+		u.add(0); u.add(1000000000);
+		List<List<Integer>> all = new ArrayList<>();
+		all.add(u);
+		all.add(u);
+		School s = new School();
+		int result = s.hire(all, 50);
+		assert result == 2000000000;
+	}
 }
